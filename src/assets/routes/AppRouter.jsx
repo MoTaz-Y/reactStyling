@@ -1,15 +1,15 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<> Movie Page</>} />
-        <Route path="/actors" element={<> Actors Page</>} />
-        <Route path="/tv" element={<>TVshows Page</>} />
-        <Route path="/series" element={<> Series Page</>} />
+        <Route path="/" element={<div> Movie Page</div>} />
+        <Route path="/actors" element={<div> Actors Page</div>} />
+        <Route path="/tv" element={<div>TVshows Page</div>} />
+        <Route path="/series" element={<div> Series Page</div>} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 

@@ -4,7 +4,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
-export default function MultiActionAreaCard() {
+export default function MultiActionAreaCard({ item, type }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
