@@ -1,15 +1,14 @@
 import "./App.css";
-import Header from "./assets/components/header/Header";
-import Footer from "./assets/components/footer/Footer";
-import StyledButton from "./assets/components/StyledButton";
+import MultiActionAreaCard from "./assets/components/Card";
+import NavBar from "./assets/components/NavBar";
+// import AppRouter from "./assets/routes/AppRouter";
 
 function App() {
   return (
     <>
-      <Header />
-      <button>click me</button>
-      <StyledButton />
-      <Footer />
+      {/* <AppRouter /> */}
+      <NavBar />
+      <MultiActionAreaCard />
     </>
   );
 }
